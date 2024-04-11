@@ -1,5 +1,12 @@
 package com.example.todolist;
 
-public class TaskRepository {
-    
+import org.springframework.data.repository.CrudRepository;
+
+public interface TaskRepository extends CrudRepository<TaskModel, Long> {
+
+    // getAllTasks()
+    // getTask(Long id)
+    // updateTasks(Task task)
+    // deleteTask(Long id)
+
 }
