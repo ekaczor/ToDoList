@@ -1,5 +1,5 @@
 package com.example.todolist;
 
-public class TodoController {
+public class TaskRepository {
     
 }
