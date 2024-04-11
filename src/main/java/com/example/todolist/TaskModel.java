@@ -15,7 +15,7 @@ public class TaskModel {
     private String task;
     private boolean taskCompleted;
     private Date dateDue;
-    
+
     public TaskModel() {
     }
 
@@ -57,5 +57,4 @@ public class TaskModel {
         this.dateDue = dateDue;
     }
 
-    
 }
