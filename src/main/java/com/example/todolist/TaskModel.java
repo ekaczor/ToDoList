@@ -24,7 +24,7 @@ public class TaskModel {
 
     @Column(name = "due_date")
     private LocalDate dateDue;
-    
+
     public TaskModel() {
     }
 
