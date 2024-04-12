@@ -8,7 +8,7 @@ import jakarta.persistence.Id;
 
 @Entity
 public class TaskModel {
-
+    
     @Id
     @GeneratedValue
     private Long id;
