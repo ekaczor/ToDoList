@@ -2,11 +2,8 @@ package com.example.todolist;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
 import jakarta.persistence.EntityNotFoundException;
-
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 @Service
 public class TaskService {
@@ -21,20 +18,20 @@ public class TaskService {
         return tasks;
     }
 
-    public TaskModel getTask(Long id){
+    public TaskModel getTask(Long id) {
         return taskRepository.findById(id)
-        .orElseThrow(() -> new EntityNotFoundException("Task not found with id " + id));
+                .orElseThrow(() -> new EntityNotFoundException("Task not found with id " + id));
     }
 
     public void addTask(TaskModel task) {
         taskRepository.save(task);
     }
 
-    public void updateTasks(Long id, TaskModel task){
+    public void updateTasks(Long id, TaskModel task) {
         taskRepository.save(task);
     }
 
-    public void deleteTask(Long id){
+    public void deleteTask(Long id) {
         taskRepository.deleteById(id);
     }
 }
