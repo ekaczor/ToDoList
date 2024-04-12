@@ -15,7 +15,6 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.PutMapping;
 
-
 @RestController
 @RequestMapping("/tasks")
 public class TaskController {
@@ -35,20 +34,19 @@ public class TaskController {
 
     @PostMapping
     @ResponseStatus(HttpStatus.CREATED)
-    public void addTask(@RequestBody TaskModel task){
+    public void addTask(@RequestBody TaskModel task) {
         taskService.addTask(task);
     }
 
     @PutMapping("/{id}")
-    public void updateTask(@PathVariable Long id, @RequestBody TaskModel task){
+    public void updateTask(@PathVariable Long id, @RequestBody TaskModel task) {
         taskService.updateTasks(id, task);
     }
 
     @DeleteMapping("/{id}")
     @ResponseStatus(HttpStatus.NO_CONTENT)
-    public void deleteTask(@PathVariable Long id){
+    public void deleteTask(@PathVariable Long id) {
         taskService.deleteTask(id);
     }
-    
-    
+
 }
