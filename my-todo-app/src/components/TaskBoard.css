@@ -1,0 +1,24 @@
+.App {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.TaskBoard {
+  background-color: rgb(251, 241, 172);
+  height: 90vh;
+  width: 50vw;
+  border-radius: 8px;
+  opacity: 95%;
+}
+
+.title {
+        font-family: 'Caveat', cursive;
+        font-weight: 700;
+        font-size: 3vw;
+        padding: 10px;
+  text-align: center;
+  color: cornflowerblue;
+}
