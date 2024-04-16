@@ -7,18 +7,48 @@
 }
 
 .TaskBoard {
-  background-color: rgb(251, 241, 172);
+  display: flex;
+  flex-direction: column;
   height: 90vh;
   width: 50vw;
+  border-radius: 8px ;
+}
+
+.above{
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(251, 241, 172);
   border-radius: 8px;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+}
+
+.tasks{
+  background-color: rgb(240, 230, 204);
+  height: 100%;
   opacity: 95%;
+  border-radius: 8px ;
 }
 
 .title {
-        font-family: 'Caveat', cursive;
-        font-weight: 700;
-        font-size: 3vw;
-        padding: 10px;
+  font-family: "Caveat", cursive;
+  font-weight: 700;
+  font-size: 3vw;
+  padding: 10px;
   text-align: center;
   color: cornflowerblue;
+}
+
+.button {
+  background-color: rgb(240, 230, 204);
+  border-radius: 3px;
+  width: 8vw;
+  font-family: "Caveat", cursive;
+  font-weight: 700;
+  font-size: 1.5vw;
+  color: cornflowerblue;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+  border: transparent;
+  margin-bottom: 20px;
 }
