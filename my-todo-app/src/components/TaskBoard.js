@@ -11,6 +11,15 @@ return (
 </div>
 <div className='tasks'>
     <Task taskCompleted='false' task='Do the dishes' category='House' dateDue='2024-04-20'/>
+    <Task taskCompleted='false' task='Do the dishes' category='House' dateDue='2024-04-20'/>
+    <Task taskCompleted='false' task='Do the dishes' category='House' dateDue='2024-04-20'/>
+    <Task taskCompleted='false' task='Do the dishes' category='House' dateDue='2024-04-20'/>
+    <Task taskCompleted='false' task='Do the dishes' category='House' dateDue='2024-04-20'/>
+    <Task taskCompleted='false' task='Do the dishes' category='House' dateDue='2024-04-20'/>
+    <Task taskCompleted='false' task='Do the dishes' category='House' dateDue='2024-04-20'/>
+    <Task taskCompleted='false' task='Do the dishes' category='House' dateDue='2024-04-20'/>
+    <Task taskCompleted='false' task='Do the dishes' category='House' dateDue='2024-04-20'/>
+    <Task taskCompleted='false' task='Do the dishes' category='House' dateDue='2024-04-20'/>
 </div>
 </div>
 )}
