@@ -12,3 +12,35 @@
   color: cornflowerblue;
   border-radius: 3px;
 }
+
+.contents{
+    padding: 6px;
+}
+
+.edit_delete{
+display: flex;
+}
+
+.edit{
+    color:gray;
+    font-size: 1.2vw;
+    padding: 6px;
+}
+
+.edit:hover{
+    color:white;
+    cursor: pointer;
+}
+
+.delete{
+    color: red;
+    font-weight: 700;
+    font-size: 1.2vw;
+    padding: 6px;
+}
+
+.delete:hover{
+    cursor: pointer;
+    color: white;
+}
+
