@@ -10,7 +10,7 @@
   display: flex;
   flex-direction: column;
   height: 90vh;
-  width: 50vw;
+  width: 60vw;
   border-radius: 8px;
 }
 
@@ -75,3 +75,8 @@
   background: rgb(4, 75, 150);
   cursor: pointer; /* color of the scroll thumb on hover */
 }
+
+.blurred {
+  filter: blur(5px);
+}
+

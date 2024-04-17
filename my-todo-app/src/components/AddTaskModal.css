@@ -1,0 +1,27 @@
+.modal {
+  position: absolute;
+  align-self: center;
+  font-size: xx-large;
+  background-color: rgb(251, 240, 172);
+  z-index: 100;
+  width: 60vw;
+  height: 90vh;
+  border-radius: 8px;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+  font-family: "Caveat", cursive;
+  font-weight: 700;
+  font-size: 3vw;
+  color: cornflowerblue;
+}
+
+.top{
+    display: flex;
+    text-align: justify;
+    align-items: center;
+    justify-content: center;
+}
+
+.exit{
+    color: red;
+    justify-self: end;
+}

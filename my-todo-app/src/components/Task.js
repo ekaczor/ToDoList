@@ -4,9 +4,19 @@ import axios from 'axios';
 
 const Task = ({task, taskCompleted, category, dateDue}) => {
 
+
     const handleEdit = () => console.log("Edit");
 
-    const handleDelete = () => console.log("Delete");
+    const handleDelete = () => {
+        console.log("Delete");
+        // axios.delete('http://localhost:8080/tasks/${task.id}')
+        //     .then(response => {
+        //         console.log("Deleted successfully", response);
+        //     })
+        //     .catch(error => {
+        //         console.error("There was an error while attempting to delete.", error);
+        //     })
+    };
 
     return(
         <div className='task'>
