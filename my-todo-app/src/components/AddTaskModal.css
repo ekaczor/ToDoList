@@ -1,28 +1,74 @@
 .modal {
   position: absolute;
   align-self: center;
-  font-size: xx-large;
+  align-items: center;
+  text-align: center;
   background-color: rgb(251, 240, 172);
   z-index: 100;
-  width: 60vw;
-  height: 90vh;
+  width: 50vw;
+  height: 80vh;
   border-radius: 8px;
   box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
   font-family: "Caveat", cursive;
   font-weight: 700;
   font-size: 3vw;
   color: cornflowerblue;
+  display: flex;
+  flex-direction: column;
 }
 
-.top{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
+.titleModal{
+  margin-top: 5vh;
+  margin-bottom: 5vh;
 }
 
-.exit{
-    color: red;
-    cursor: pointer;
-    
+.exit {
+  position: absolute;
+  display: flex;
+  color: red;
+  cursor: pointer;
+  align-items: end;
+  right: 1.5vw;
+  top: 1vh;
+}
+
+.exit:hover {
+  color: white;
+}
+
+.userInput {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  width: 40vw;
+  margin: 20px;
+  font-size: 1.2vw;
+}
+
+label{
+  font-size: 1.5vw;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.finishButton {
+  background-color: rgb(240, 230, 204);
+  border-radius: 3px;
+  width: 8vw;
+  font-family: "Caveat", cursive;
+  font-weight: 700;
+  font-size: 1.8vw;
+  color: cornflowerblue;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+  border: transparent;
+  margin-top: 10vh;
+}
+
+.finishButton:hover {
+  cursor: pointer;
+  background-color: rgb(251, 241, 272);
 }
