@@ -87,7 +87,7 @@ const TaskBoard = () => {
           </div>
         
       
-      {modalOpen && <AddTaskModal />}
+      {modalOpen && <AddTaskModal onClose={closeAddTask}/>}
     </div>
   );
 };

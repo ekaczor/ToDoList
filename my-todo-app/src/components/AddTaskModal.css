@@ -16,12 +16,13 @@
 
 .top{
     display: flex;
-    text-align: justify;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .exit{
     color: red;
-    justify-self: end;
+    cursor: pointer;
+    
 }
