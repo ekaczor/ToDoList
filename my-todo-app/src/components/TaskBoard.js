@@ -16,7 +16,8 @@ const TaskBoard = () => {
   };
 
   return (
-    <div className="TaskBoard">
+    <div className={`TaskBoard ${modalOpen ? 'modal-open' : ''}`}>
+    {modalOpen && <div className="overlay"></div>}
         <div className="above">
           <h1 className="title">TaskTide</h1>
           <button className="button" onClick={openAddTask}>
@@ -85,7 +86,6 @@ const TaskBoard = () => {
             dateDue="2024-04-20"
           />
           </div>
-        
       
       {modalOpen && <AddTaskModal onClose={closeAddTask}/>}
     </div>
